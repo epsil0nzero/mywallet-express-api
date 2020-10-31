@@ -5,9 +5,9 @@ import auth from '../../middleware/auth';
 const router = Router();
 
 const mockBalanaces = [
-  {id: 1, symbol: 'BTC', icon: 'btc', total: '1', available: '1', locked: '0', btc_value: '0.1'},
-  {id: 2, symbol: 'ETH', icon: 'eth', total: '10', available: '10', locked: '0', btc_value: '0.1'},
-  {id: 3, symbol: 'LINK', icon: 'link', total: '30', available: '30', locked: '0', btc_value: '0.1'},
+  {id: 1, symbol: 'BTC', icon: 'btc', total: '1', available: '1', locked: '0', btc_value: '0.1', address: 'btc_test_address'},
+  {id: 2, symbol: 'ETH', icon: 'eth', total: '10', available: '10', locked: '0', btc_value: '0.1', address: 'eth_test_address'},
+  {id: 3, symbol: 'LINK', icon: 'link', total: '30', available: '30', locked: '0', btc_value: '0.1', address: 'link_test_address'},
 ];
 
 /**
