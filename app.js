@@ -42,7 +42,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/wallet', walletRoutes);
 
-app.use('/assets/icons', express.static('node_modules/cryptocurrency-icons/svg/color'));
+app.use('/assets/icons', express.static('node_modules/cryptocurrency-icons/32/black'));
 
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {
